@@ -7,8 +7,8 @@ function App() {
   //const [showMore, setShowMore] = useState(false);
 
   const removeHotel = (id) => {
-     const newHotels = hotels.filter(hotel => hotel.id !== id);
-     setHotels(newHotels)
+  const newHotels = hotels.filter(hotel => hotel.id !== id);
+  setHotels(newHotels);
   }
 
   const setShowMore = (id) => {
@@ -43,7 +43,7 @@ function App() {
               </p>
             </div>
             <div className='container'>
-              <img src={image} width="500px" />
+              <img src={image} width="500px" alt="nyc/>
             </div>
             <div className='container'>
               <p>{source}</p>
