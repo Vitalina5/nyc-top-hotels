@@ -43,7 +43,7 @@ function App() {
               </p>
             </div>
             <div className='container'>
-              <img src={image} width="500px" alt="nyc/>
+              <img src={image} width="500px" alt="nyc"/>
             </div>
             <div className='container'>
               <p>{source}</p>
